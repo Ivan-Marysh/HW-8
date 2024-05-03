@@ -1,0 +1,84 @@
+.yellow{
+    color: yellow;
+
+}
+#greycol{
+    color: gray;
+}
+div ~ p {
+    color: green;
+}
+ {
+    color: red;
+}
+ {
+    color: pink;
+}
+.list-itom{
+    color: rgb(119, 16, 139);
+}
+.list-itom1{
+    color: rgb(150, 13, 36);
+}
+.list-itom2{
+    color: rgb(40, 158, 24);
+}
+.list-itom3{
+    color: rgb(13, 45, 104);
+}
+.list-itom4{
+    color: rgb(236, 236, 100);
+}
+.list-itom5{
+    color: rgb(65, 206, 175);
+}
+.list-itom6{
+    color: rgb(184, 86, 6);
+}
+.list-itom7{
+    color: rgb(193, 27, 199);
+}
+tr :hover{
+    color: rgb(25, 0, 255);
+}
+tr :focus{
+    width: 23;
+    height: 34;
+    border: 32;
+
+}
+tr :checked{
+    height: 10;
+    width: 30;
+}
+tr :disabled{
+    color: black;
+}
+tr :link{
+    background-color: aquamarine;
+}
+tr :first-child{
+    color: rgb(0, 0, 0);
+}
+  tr :empty {
+    color: bisque;
+  }
+  tr :last-child{
+    height: 10;
+    width: 30;
+
+  }
+  tr  :nth-child(3)
+  {
+color: blueviolet;
+  }   
+  tr :nth-child(even)
+  {
+    height: 2cqmax;
+  }
+
+  
+
+    background-color: orange;
+  
+  
