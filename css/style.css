@@ -8,14 +8,20 @@
 div ~ p {
     color: green;
 }
- {
+div + div > p {
     color: red;
 }
- {
+h3:first-child {
     color: pink;
 }
+
+
+
 .list-itom{
     color: rgb(119, 16, 139);
+}
+.list-itom:hover, .list-itom1:hover, .list-itom2:hover, .list-itom3:hover, .list-itom4:hover {
+    background-color: rgb(43, 26, 139);
 }
 .list-itom1{
     color: rgb(150, 13, 36);
@@ -32,53 +38,35 @@ div ~ p {
 .list-itom5{
     color: rgb(65, 206, 175);
 }
+.list-itom5:hover{
+    background-color: brown;
+}
+
 .list-itom6{
     color: rgb(184, 86, 6);
+}
+.list-itom6:hover {
+    background-color: rgb(163, 189, 19);
 }
 .list-itom7{
     color: rgb(193, 27, 199);
 }
-tr :hover{
+td:hover{
     color: rgb(25, 0, 255);
 }
-tr :focus{
-    width: 23;
-    height: 34;
-    border: 32;
-
-}
-tr :checked{
-    height: 10;
-    width: 30;
-}
-tr :disabled{
-    color: black;
-}
-tr :link{
-    background-color: aquamarine;
-}
-tr :first-child{
+td:first-child{
     color: rgb(0, 0, 0);
 }
-  tr :empty {
-    color: bisque;
+  td:empty {
+    color: rgb(21, 214, 134);
   }
-  tr :last-child{
-    height: 10;
-    width: 30;
-
+  td:last-child{
+    background-color: rgb(148, 11, 41);
   }
-  tr  :nth-child(3)
+  td:nth-child(3)
   {
 color: blueviolet;
   }   
-  tr :nth-child(even)
-  {
-    height: 2cqmax;
+  td:nth-child(even){
+    color: rgb(22, 94, 70);
   }
-
-  
-
-    background-color: orange;
-  
-  
